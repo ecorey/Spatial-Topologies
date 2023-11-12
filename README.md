@@ -4,7 +4,7 @@
 - **leftDual (ld)**
 - **rightDual (rd)**
 
-# As each of the three operations will give a relation as the result, the operations can then also be applied recursively.
+# Each of the three operations given above will give a relation as a result, and the operations can also be applied recursively.
 
 # This program verifies exhaustively (for each of the eleven relations) that:
 
@@ -30,7 +30,7 @@
 
 ---
 
-# The eleven region-region relations R in S2 using the :
+# The eleven region-region relations R in S2 and their intersection matrix:
 
     embrace = np.array([[1, 1, 1], [1, 0, 0], [1, 0, 0]])
 
