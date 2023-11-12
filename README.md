@@ -4,7 +4,7 @@
 - **leftDual (ld)**
 - **rightDual (rd)**
 
-_Each of these three operations given will also produce a relation as a result, and the operations can also be applied recursively._
+_**Each of these three operations given will also produce a relation as a result, and the operations can also be applied recursively.**_
 
 # This program verifies exhaustively (for each of the eleven relations (R) ) that:
 
