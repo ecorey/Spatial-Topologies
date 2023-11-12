@@ -1,4 +1,4 @@
-# There are three operations that apply to the eleven region-region relations R in S2, which are as follows:
+# There are three operations that apply to the eleven region-region relations R in S2 as shown in the [Point-Set Topological Spatial Relations](http://www.dpi.inpe.br/gilberto/references/egenhofer_point_set.pdf), which are as follows:
 
 - **converse (conv)**
 - **leftDual (ld)**
@@ -30,7 +30,7 @@
 
 ---
 
-# The eleven region-region relations R in S2:
+# The eleven region-region relations R in S2 using the :
 
     embrace = np.array([[1, 1, 1], [1, 0, 0], [1, 0, 0]])
 
