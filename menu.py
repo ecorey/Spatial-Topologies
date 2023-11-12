@@ -1,20 +1,20 @@
-import part1a as p1a
-import part1b as p1b
-import part1c as p1c
-import part2a as p2a
-import part2b as p2b
-import part2c as p2c
+import a as p1a
+import b as p1b
+import c as p1c
+import d as p2a
+import e as p2b
+import f as p2c
 import conclusions as c
 
 
 def print_menu():
     """The print_menu function prints the display menu to screen."""
-    print('''1 -> part 1.a
-2 -> part 1.b
-3 -> part 1.c
-4 -> part 2.a
-5 -> part 2.b
-6 -> part 2.c
+    print('''1 -> a: conv(ld(R)) is equivalent to ld(conv(R))
+2 -> b: conv(rd(R)) is equivalent to rd(conv(R))
+3 -> c: ld(rd (R)) is equivalent to rd(ld(R))
+4 -> d: rd(conv(ld(R))) is equivalent to rd(ld(conv(R)))
+5 -> e: ld(conv(rd(R))) is equivalent to ld(rd(conv(R)))
+6 -> f: conv(ld(rd(R))) is equivalent to conv(rd(ld(R)))
 7 -> conclusions
 8 -> quit
 ''')
