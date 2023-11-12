@@ -6,7 +6,7 @@
 
 _**Each of these three operations given will also produce a relation as a result, and the operations can also be applied recursively.**_
 
-# This program verifies exhaustively (for each of the eleven relations (R) ) that:
+# This program verifies exhaustively (for each of the eleven relations {R} ) that:
 
 - a: conv(ld(R)) is equivalent to ld(conv(R))
 
@@ -14,7 +14,7 @@ _**Each of these three operations given will also produce a relation as a result
 
 - c: ld(rd (R)) is equivalent to rd(ld(R))
 
-# This program also verifies exhaustively (for each of the eleven relations (R) ) that:
+# This program also verifies exhaustively (for each of the eleven relations {R} ) that:
 
 - d: rd(conv(ld(R))) is equivalent to rd(ld(conv(R)))
 
