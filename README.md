@@ -8,23 +8,23 @@
 
 # This program verifies exhaustively (for each of the eleven relations (R) ) that:
 
-- 1.1a: conv(ld(R)) is equivalent to ld(conv(R))
+- a: conv(ld(R)) is equivalent to ld(conv(R))
 
-- 1.1b: conv(rd(R)) is equivalent to rd(conv(R))
+- b: conv(rd(R)) is equivalent to rd(conv(R))
 
-- 1.1c: ld(rd (R)) is equivalent to rd(ld(R))
+- c: ld(rd (R)) is equivalent to rd(ld(R))
 
 # This program also verifies exhaustively (for each of the eleven relations (R) ) that:
 
-- 1.2a: rd(conv(ld(R))) is equivalent to rd(ld(conv(R)))
+- d: rd(conv(ld(R))) is equivalent to rd(ld(conv(R)))
 
-- 1.2b: ld(conv(rd(R))) is equivalent to ld(rd(conv(R)))
+- e: ld(conv(rd(R))) is equivalent to ld(rd(conv(R)))
 
-- 1.2c: conv(ld(rd(R))) is equivalent to conv(rd(ld(R)))
+- f: conv(ld(rd(R))) is equivalent to conv(rd(ld(R)))
 
 # Conclusions
 
-- 1.3: From the results in 1.1 and 1.2
+- Conclusions: From the results in (a, b, c) and (d, e, f)
 
 ---
 
