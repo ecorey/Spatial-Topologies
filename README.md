@@ -4,9 +4,9 @@
 - **leftDual (ld)**
 - **rightDual (rd)**
 
-# Each of the three operations given above will give a relation as a result, and the operations can also be applied recursively.
+# Each of these three operations given will also produce a relation as a result, and the operations can also be applied recursively.
 
-# This program verifies exhaustively (for each of the eleven relations) that:
+# This program verifies exhaustively (for each of the eleven relations (R) ) that:
 
 - 1.1a: conv(ld(R)) is equivalent to ld(conv(R))
 
@@ -14,7 +14,7 @@
 
 - 1.1c: ld(rd (R)) is equivalent to rd(ld(R))
 
-# This program also verifies exhaustively (for each of the eleven relations) that:
+# This program also verifies exhaustively (for each of the eleven relations (R) ) that:
 
 - 1.2a: rd(conv(ld(R))) is equivalent to rd(ld(conv(R)))
 
