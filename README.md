@@ -24,7 +24,9 @@ _**Each of these three operations given will also produce a relation as a result
 
 # Conclusions
 
-- Conclusions: From the results in (a, b, c) and (d, e, f)
+- The results in (a, b, c) and (d, e, f)
+
+[Conclusions](https://github.com/ecorey/Spatial-Topology/blob/main/conclusions.md)
 
 ---
 
