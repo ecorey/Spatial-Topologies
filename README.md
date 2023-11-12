@@ -1,4 +1,4 @@
-# There are three operations that apply to the eleven region-region relations R in S2 as shown in the [Point-Set Topological Spatial Relations](http://www.dpi.inpe.br/gilberto/references/egenhofer_point_set.pdf), which are as follows:
+# There are three operations that apply to the eleven region-region relations R in S2 as shown in the [Point-Set Topological Spatial Relations](http://www.dpi.inpe.br/gilberto/references/egenhofer_point_set.pdf), these operations are as follows:
 
 - **converse (conv)**
 - **leftDual (ld)**
