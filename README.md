@@ -1,8 +1,8 @@
 # Three operations that apply to the eleven region-region relations R in S2 are:
 
-**converse (conv)**
-**leftDual (ld)**
-**rightDual (rd)**
+- **converse (conv)**
+- **leftDual (ld)**
+- **rightDual (rd)**
 
 # Since each of the three operations yields a relation as the result, these operations can be applied recursively.
 
