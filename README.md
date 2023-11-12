@@ -1,27 +1,55 @@
-# Three operations that apply to the eleven region-region relations R in S2 are:
+# There are three operations that apply to the eleven region-region relations R in S2, which are as follows:
 
 - **converse (conv)**
 - **leftDual (ld)**
 - **rightDual (rd)**
 
-# Since each of the three operations yields a relation as the result, these operations can be applied recursively.
+# As each of the three operations will give a relation as the result, the operations can then also be applied recursively.
 
-# This program verifies exhaustively (for all eleven relations) that:
+# This program verifies exhaustively (for each of the eleven relations) that:
 
-- 1.1a: conv(ld(R)) is the same as ld(conv(R))
+- 1.1a: conv(ld(R)) is equivalent to ld(conv(R))
 
-- 1.1b: conv(rd(R)) is the same as rd(conv(R))
+- 1.1b: conv(rd(R)) is equivalent to rd(conv(R))
 
-- 1.1c: ld(rd (R)) is the same as rd(ld(R))
+- 1.1c: ld(rd (R)) is equivalent to rd(ld(R))
 
-# These three operations can also be applied three times in a row. This program verifies exhaustively (for all eleven relations) that:
+# This program also verifies exhaustively (for each of the eleven relations) that:
 
-- 1.2a: rd(conv(ld(R))) is the same as rd(ld(conv(R)))
+- 1.2a: rd(conv(ld(R))) is equivalent to rd(ld(conv(R)))
 
-- 1.2b: ld(conv(rd(R))) is the same as ld(rd(conv(R)))
+- 1.2b: ld(conv(rd(R))) is equivalent to ld(rd(conv(R)))
 
-- 1.2c: conv(ld(rd(R))) is the same as conv(rd(ld(R)))
+- 1.2c: conv(ld(rd(R))) is equivalent to conv(rd(ld(R)))
 
 # Conclusions
 
 - 1.3: From the results in 1.1 and 1.2
+
+---
+
+---
+
+# The eleven region-region relations R in S2:
+
+    embrace = np.array([[1, 1, 1], [1, 0, 0], [1, 0, 0]])
+
+    attach = np.array([[0, 0, 1], [0, 1, 0], [1, 0, 0]])
+
+    disjoin = np.array([[0, 0, 1], [0, 0, 1], [1, 1, 1]])
+
+    entwined = np.array([[1, 1, 1], [1, 1, 0], [1, 0, 0]])
+
+    meet = np.array([[0, 0, 1], [0, 1, 1], [1, 1, 1]])
+
+    overlap = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+    coveredBy = np.array([[1, 0, 0], [1, 1, 0], [1, 1, 1]])
+
+    covers = np.array([[1, 1, 1], [0, 1, 1], [0, 0, 1]])
+
+    inside = np.array([[1, 0, 0], [1, 0, 0], [1, 1, 1]])
+
+    equals = np.array([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
+
+    contains = np.array([[1, 1, 1], [0, 0, 1], [0, 0, 1]])
